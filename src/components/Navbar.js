@@ -7,7 +7,7 @@ const Navbar = ()=>{
     <nav>
      {
        pathname !== '/users' && (
-        <Link to ="/users" >See list of Users</Link>
+        <Link to ="/users" ><b>See list of Users</b></Link>
        )
      }
     </nav>
